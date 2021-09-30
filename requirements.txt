@@ -1,1 +1,4 @@
 selenium
+django
+gunicorn
+django-heroku
