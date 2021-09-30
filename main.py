@@ -76,9 +76,9 @@ def makeReservation(activity_name, activity_full_name, browser):
 
 def main():
     opts = Options()
-    opts.headless = False
+    opts.headless = True
     browser = webdriver.Chrome("C:\\chromedriver", options=opts)
-    browser.maximize_window()
+    #browser.maximize_window()
 
     # cardio_full_name = "/rcfs/cardelrec/ReserveTime/StartReservation?pageId=a10d1358-60a7-46b6-b5e9-5b990594b108&buttonId=3dfedc0c-fea9-4c89-bf5b-adc58e05d0d1&culture=en&uiCulture=en "
     # lane_swim_url = "/rcfs/cardelrec/ReserveTime/StartReservation?pageId=a10d1358-60a7-46b6-b5e9-5b990594b108" \
